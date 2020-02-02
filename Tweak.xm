@@ -1,11 +1,11 @@
 #import "Tweak.h"
 
-//tweak settings.
+//
 static bool hs = false;
 static bool ls = false;
 
 
-//amash shteky tra
+//
 static void reloadPreferences() {
     HBPreferences *file = [[HBPreferences alloc] initWithIdentifier:@"cf.1di4r.hidedotspref"];
     hs = [([file objectForKey:@"isHS"] ?: @(YES)) boolValue];
