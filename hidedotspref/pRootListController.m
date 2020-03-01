@@ -31,15 +31,9 @@
 	options:@{}
 	completionHandler:nil];
 		}
--(void)paypal {
-			[[UIApplication sharedApplication]
-			openURL:[NSURL URLWithString:@"https://paypal.me/dyarib/2"]
-			options:@{}
-			completionHandler:nil];
-				}
 -(void)github {
 		 	 			[[UIApplication sharedApplication]
-		 	 			openURL:[NSURL URLWithString:@"https://github.com/1di4r"]
+		 	 			openURL:[NSURL URLWithString:@"https://github.com/1di4r/HideDots"]
 		 	 			options:@{}
 		 	 			completionHandler:nil];
 		 	 				}

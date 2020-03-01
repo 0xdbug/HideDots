@@ -68,16 +68,6 @@
 		 		 <string>PSGroupCell</string>
 		 	 </dict>
 			 <dict>
-				 <key>cellClass</key>
-				 <string>HBLinkTableCell</string>
-				 <key>label</key>
-				 <string>Buy Me A Coffee</string>
-				 <key>subtitle</key>
-				 <string>Support me</string>
-				 <key>action</key>
-				 <string>paypal</string>
-			 </dict>
-			 <dict>
 				<key>cellClass</key>
 				<string>HBLinkTableCell</string>
 				<key>label</key>
@@ -92,13 +82,7 @@
 		 	 	 <key>cell</key>
 		 	 	 <string>PSGroupCell</string>
 		 	 	 <key>label</key>
-		 	 	 <string>© 1di4r 2019 - HideDots 1.1</string>
-		 	  </dict>
-				<dict>
-		 	 	 <key>cell</key>
-		 	 	 <string>PSGroupCell</string>
-		 	 	 <key>label</key>
-		 	 	 <string>Sorry for the weird icon, if you want to submit an icon for this tweak feel free to contact me. :D</string>
+		 	 	 <string>© 1di4r 2020 - HideDots 1.5</string>
 		 	  </dict>
 
 	</array>

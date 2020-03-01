@@ -1,6 +1,6 @@
 ARCHS = arm64 arm64e
 
-include ../../../theos/makefiles/common.mk
+include $(THEOS)/makefiles/common.mk
 
 BUNDLE_NAME = hidedotspref
 hidedotspref_FILES = pRootListController.m
@@ -12,7 +12,7 @@ hidedotspref_EXTRA_FRAMEWORKS += CepheiPrefs
 
 
 
-include ../../../theos/makefiles/bundle.mk
+include $(THEOS_MAKE_PATH)/bundle.mk
 
 internal-stage::
 	$(ECHO_NOTHING)mkdir -p $(THEOS_STAGING_DIR)/Library/PreferenceLoader/Preferences$(ECHO_END)
